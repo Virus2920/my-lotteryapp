@@ -12,7 +12,6 @@ def lottery_gen():
     
     if ticket_number > 50
         print("syntax error, ticket number must be within the range of 0-50")
-        enter = input()
         
     elif random_number == lucky_number and lucky_number == ticket_number:
         print('Congratulations' + username + "You choosed the lucky Number")
